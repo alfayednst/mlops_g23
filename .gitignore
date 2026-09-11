@@ -1,0 +1,10 @@
+venv/
+.venv/
+pycache /
+*.pyc
+.env
+.vscode/
+.idea/
+.DS_Store
+data/raw/*
+!data/raw/.gitkeep
