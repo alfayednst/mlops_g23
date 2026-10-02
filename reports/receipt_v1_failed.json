@@ -1,0 +1,39 @@
+{
+  "model": "qwen2.5-vl-7b-instruct",
+  "source_image": "data/raw/nota-sample.png",
+  "receipt": {
+    "merchant": "TOKO NOVA",
+    "tanggal": "24/09/2026",
+    "items": [
+      {
+        "nama": "Kopi Susu",
+        "qty": 2,
+        "harga": 18000
+      },
+      {
+        "nama": "Roti Bakar",
+        "qty": 1,
+        "harga": 22000
+      },
+      {
+        "nama": "Air Mineral",
+        "qty": 3,
+        "harga": 5000
+      },
+      {
+        "nama": "Donat Cokelat",
+        "qty": 2,
+        "harga": 11000
+      }
+    ],
+    "subtotal": 95000,
+    "pajak": 0,
+    "total": 95000
+  },
+  "validation": {
+    "passed": false,
+    "warnings": [
+      "Jumlah item (56000) != subtotal (95000)"
+    ]
+  }
+}
